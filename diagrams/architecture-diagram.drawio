@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.1.4">
+  <diagram name="Page-1" id="kfgeka3dnJY_tPEGh-YF">
+    <mxGraphModel dx="946" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i5gpJBnVmvmPH9NZ6UYc-1" value="Angular UI&lt;br&gt;UpcomingTasksComponent)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i5gpJBnVmvmPH9NZ6UYc-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="i5gpJBnVmvmPH9NZ6UYc-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="100" as="sourcePoint" />
+            <mxPoint x="320" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5gpJBnVmvmPH9NZ6UYc-3" value="Spring Boot REST API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i5gpJBnVmvmPH9NZ6UYc-4" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="570" y="60" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i5gpJBnVmvmPH9NZ6UYc-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="99.5" as="sourcePoint" />
+            <mxPoint x="550" y="99.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5gpJBnVmvmPH9NZ6UYc-8" value="&lt;div&gt;&amp;nbsp;AWS Lambda Function&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&lt;/div&gt;&lt;div&gt;| - Runs daily&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |&lt;/div&gt;&lt;div&gt;| - Calls REST API /tasks&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&lt;/div&gt;&lt;div&gt;| - Logs or sends alert for&amp;nbsp; &amp;nbsp; &amp;nbsp;|&lt;/div&gt;&lt;div&gt;|&amp;nbsp; &amp;nbsp;overdue tasks&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="305" y="190" width="170" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,19 @@
++-----------------------+           +---------------------+
+|      Angular UI       |  <--HTTP-->  Spring Boot REST API  | 
+|  (UpcomingTasksComponent)           |  (Controller, Service, Repository) |
++-----------------------+           +---------------------+
+                                       |
+                                       | JPA/Hibernate
+                                       v
+                                +----------------+
+                                |   PostgreSQL   |
+                                |   (tasks DB)   |
+                                +----------------+
+
++-------------------------------+
+|      AWS Lambda Function       |
+| - Runs daily                  |
+| - Calls REST API /tasks       |
+| - Logs or sends alert for     |
+|   overdue tasks               |
++-------------------------------+
